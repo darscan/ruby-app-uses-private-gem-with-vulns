@@ -120,7 +120,7 @@ GEM
       i18n (>= 0.6.4, <= 2)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    ox (2.8.0)
+    ox (2.8.2)
     paperclip (4.2.4)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -265,8 +265,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ox (= 2.8.0)
+  ox (= 2.8.2)
   privvy!
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
