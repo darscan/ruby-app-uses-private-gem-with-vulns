@@ -1,20 +1,32 @@
 GIT
-  remote: https://github.com/snyk-fixtures/ruby-simple-vuln-gem
-  revision: 3786a5b4fccceb4aaa0b3cdfa4b0da1092659d78
+  remote: git@github.com:darscan/ruby-gem-for-private-source
+  revision: 56c4826f9098ef8cadd0acb73022baabb2ba9c9e
   specs:
-    ruby-simple-vuln-gem (0.1.0)
+    privvy (0.1.1)
+      json
       nokogiri (= 1.5.4)
+      redis-rack-cache (= 1.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    json (2.2.0)
     nokogiri (1.5.4)
+    rack (2.0.6)
+    rack-cache (1.1)
+      rack (>= 0.4)
+    redis (2.2.2)
+    redis-rack-cache (1.1)
+      rack-cache (= 1.1)
+      redis-store (= 1.1.0)
+    redis-store (1.1.0)
+      redis (~> 2.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ruby-simple-vuln-gem!
+  privvy!
 
 BUNDLED WITH
-   1.13.7
+   1.16.2
