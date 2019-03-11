@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:darscan/ruby-gem-for-private-source
+  remote: https://github.com/darscan/ruby-gem-for-private-source
   revision: 1cd7d8525295a85b9aeffd69bb862e6c8ff6b236
   specs:
     privvy (0.1.1)
